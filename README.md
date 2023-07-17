@@ -1,4 +1,4 @@
-# Source, co-occurrence, and prognostic value of PTEN mutations or loss in colorectal cancer.
+# Source, co-occurrence, and prognostic value of PTEN mutations or loss in colorectal cancer
 Ilya G. Serebriiskii<sup>1</sup>,<sup>2</sup>, Valery Pavlov<sup>1</sup>,<sup>3</sup>, Grigorii Andrianov<sup>1</sup>, Samuel Litwin<sup>1</sup>,<sup>4</sup>, Stanley Basickes<sup>5</sup>, Justin Newber<sup>5,6</sup>, Garrett Frampton<sup>6</sup>, Joshua E. Meyer<sup>1</sup>,<sup>7</sup>, and Erica A. Golemis<sup>1</sup>,<sup>8</sup>
 
 ## Abstract
