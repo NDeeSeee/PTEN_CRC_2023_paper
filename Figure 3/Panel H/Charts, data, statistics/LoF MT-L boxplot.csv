@@ -1,0 +1,6 @@
+"","PTEN_APC","PTEN_KRAS","PTEN_PIK3CA","PTEN_TP53"
+"lower_whisker",0,0,0,0
+"lower_hinge",0.6,0.7,0.9,0.6
+"median",1,1,1.2,0.9
+"upper_hinge",1.2,1.3,1.7,1
+"upper_whisker",2.2,2.2,2.9,1.7
