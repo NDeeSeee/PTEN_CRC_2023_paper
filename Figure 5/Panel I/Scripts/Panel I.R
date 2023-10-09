@@ -200,4 +200,4 @@ publication_quality_plot_supplement <-
 
 print(publication_quality_plot_supplement)
 
-ggsave("../Charts, data, statistics/Panel I supplement.png", dpi = 300, height = 4, width = 8)
+ggsave("../Charts, data, statistics/Panel I supplement.png", dpi = 300, height = 4, width = 5)
