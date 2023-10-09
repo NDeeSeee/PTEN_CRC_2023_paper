@@ -190,7 +190,7 @@ fisher_test_results_dataframe_supplement <-
 
 # Save the Fisher Test Results for Further Analysis
 write.csv(
-  fisher_test_results_dataframe,
+  fisher_test_results_dataframe_supplement,
   "../Charts, data, statistics/Panel I pairwise fisher test supplement.csv", row.names = F
 )
 
