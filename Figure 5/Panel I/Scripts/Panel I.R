@@ -21,7 +21,7 @@ prepare_dataframe_for_plotting <-
     # Filter and transform the data to make it suitable for plotting
     prepared_dataframe <- variants_data %>%
       group_by(sample_id) %>%
-      summarise(PTEN_mutation_presence = sign(sum(gene == "PTEN"))) %>%
+      summarise(PTEN_mutation_presence = sign(sum(gene == "PTEN", na.rm = T))) %>%
       left_join(x = samples_data) %>%
       mutate(PTEN_mutation_presence = replace_na(PTEN_mutation_presence, 0)) %>%
       filter(stage != "0") %>%
@@ -32,7 +32,7 @@ prepare_dataframe_for_plotting <-
       group_by(stage, msi) %>%
       summarise(
         sample_count = n(),
-        mutated_sample_count = sum(PTEN_mutation_presence)
+        mutated_sample_count = sum(PTEN_mutation_presence, na.rm = T)
       ) %>%
       mutate(
         proportion_of_mutations = mutated_sample_count / sample_count,
